@@ -1,0 +1,24 @@
+.card__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #EFF3F5;
+  margin: 0 0 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 98%;
+}
+
+/* .card__title_location {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 117px;
+  border-bottom: 1px solid #EFF3F5;
+  height: 121px;
+  width: 808px;
+  box-sizing: border-box;
+  margin: 0 auto;
+} */

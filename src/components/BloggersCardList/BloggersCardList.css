@@ -1,0 +1,208 @@
+.bloggers-card__list {
+  /* autoprefixer grid: autoplace */
+  grid-template-rows: auto;
+  max-width: 1440px;
+  padding: 0 68px 59px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(311px, 1fr));
+  grid-gap: 50px 20px;
+  border-bottom: 1px solid #EFF3F5;
+}
+
+.bloggers-card__list-item {
+  list-style: none;
+}
+
+.bloggers-card__list_location {
+  /* autoprefixer grid: autoplace */
+  grid-auto-flow: column;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 50px 0;
+  border: none;
+}
+
+.bloggers-card__list_location-container {
+  position: relative;
+  padding: 0 68px;
+}
+
+.bloggers-card__list-scrollbtn-right {
+  cursor: pointer;
+  position: absolute;
+  right: 532px;
+  bottom: -6px;
+  background-image: url(../../images/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  height: 16px;
+  width: 7px;
+}
+
+.bloggers-card__list-scrollbtn-left {
+  cursor: pointer;
+  position: absolute;
+  left: 532px;
+  bottom: -6px;
+  background-image: url(../../images/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  height: 16px;
+  width: 7px;
+}
+
+
+
+.bloggers-card__list_location::-webkit-scrollbar {
+  height: 4px;
+}
+
+
+.bloggers-card__list_location::-webkit-scrollbar-track {
+  background: #969696;
+  border-radius: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+
+.bloggers-card__list_location::-webkit-scrollbar-thumb {
+  background: #EFF3F5;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  .bloggers-card__list_location::-webkit-scrollbar-track {
+    margin-left: 490px;
+    margin-right: 490px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bloggers-card__list_location::-webkit-scrollbar-track {
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+
+  .bloggers-card__list-scrollbtn-right {
+    right: 396px;
+    bottom: -6px;
+  }
+
+  .bloggers-card__list-scrollbtn-left {
+    left: 396px;
+    bottom: -6px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+
+  .bloggers-card__list_location::-webkit-scrollbar-track {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+
+  .bloggers-card__list-scrollbtn-left {
+    left: 268px;
+  }
+
+  .bloggers-card__list-scrollbtn-right {
+    right: 266px;
+  }
+
+}
+
+@media screen and (max-width: 670px) {
+
+  .bloggers-card__list_location::-webkit-scrollbar-track {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .bloggers-card__list-scrollbtn-left {
+    left: 208px;
+  }
+
+  .bloggers-card__list-scrollbtn-right {
+    right: 206px;
+  }
+
+}
+
+@media screen and (max-width: 426px) {
+
+  .bloggers-card__list_location::-webkit-scrollbar-track {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+
+  .bloggers-card__list-scrollbtn-left {
+    left: 108px;
+  }
+
+  .bloggers-card__list-scrollbtn-right {
+    right: 106px;
+  }
+
+}
+
+@media screen and (max-width: 378px) {
+
+  .bloggers-card__list_location::-webkit-scrollbar-track {
+    margin-left: 58px;
+    margin-right: 58px;
+  }
+
+  .bloggers-card__list-scrollbtn-left {
+    left: 38px;
+  }
+
+  .bloggers-card__list-scrollbtn-right {
+    right: 36px;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+
+  .bloggers-card__list {
+    padding: 0 30px 50px;
+  }
+
+  .bloggers-card__list_location-container {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .bloggers-card__list_location {
+    padding: 30px 0 40px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+
+  .bloggers-card__list {
+    grid-gap: 20px 20px;
+    padding: 0 20px 59px;
+  }
+
+  .bloggers-card__list_location-container {
+    padding: 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .bloggers-card__list {
+    padding: 20px 0 40px;
+  }
+
+  .bloggers-card__list_location-container {
+    padding: 0;
+  }
+}

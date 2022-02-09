@@ -1,0 +1,46 @@
+.langbar{
+  position: relative;
+}
+
+.langbar__btn {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #EFF3F5;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0 8px;
+}
+
+.langbar__btn_active {
+  text-decoration: underline;
+}
+
+.langbar__span {
+  position: absolute;
+  left: 38px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #EFF3F5;
+}
+
+@media screen and (max-width: 768px) {
+  .langbar {
+    margin: 27px;
+  }
+
+  .langbar__btn {
+    color: #6E105E;
+  }
+
+  .langbar__span {
+    color: #6E105E;
+  }
+}

@@ -1,0 +1,32 @@
+.videos-card__image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 217px;
+  opacity: .7;
+}
+
+.videos-card {
+  position: relative;
+}
+
+.videos-card__play-btn {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  border: unset;
+  background-color: transparent;
+  background-image: url('../../images/play-btn.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: .2s all ease-in-out;
+}
+
+.videos-card__link:hover {
+  opacity: .6;
+}

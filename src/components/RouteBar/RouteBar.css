@@ -1,0 +1,44 @@
+.route-bar {
+  padding: 22px 68px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.route-bar-item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EFF3F5;
+  text-decoration: none;
+}
+
+.route-bar-item_active {
+  background: #EFF3F5;
+  color: #6E105E;
+  opacity: 0.8;
+  border-radius: 20px;
+  padding:  3px 8px;
+}
+
+.route-bar-item-span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EFF3F5;
+}
+
+@media screen and (max-width: 850px) {
+  .route-bar {
+    padding: 22px 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .route-bar {
+    padding: 22px 20px;
+  }
+}

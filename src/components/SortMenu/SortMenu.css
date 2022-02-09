@@ -1,0 +1,180 @@
+.sort-menu__container {
+  display: flex;
+  padding: 54px 68px 50px;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.sort-menu__container_invisible {
+  display: none;
+}
+
+.sort-menu__header {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.sort-menu__header-item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #EFF3F5;
+  margin: 0 5px 0 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.sort-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  position: relative;
+}
+
+.sort-menu__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 35px;
+}
+
+.sort-menu__item {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #EFF3F5;
+}
+
+
+.sort-menu__item::after {
+  content: url('../../images/arrow.svg');
+  margin-left: 10px;
+}
+
+.sort-menu__submenu {
+  background: #CBB8CE;
+  /* background: rgba(110, 16, 94, 0.5); */
+  /* border: .5px solid #FFF; */
+  box-sizing: border-box;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+  /* box-shadow: inset 0px 0px 5px 5px rgba(255, 255, 255, 0.25); */
+  /* backdrop-filter: blur(20px); */
+  border-radius: 12px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 5;
+  width: calc(100% - 35px);
+  margin: 5px 0 0 36px;
+  padding: 0 5px 5px;
+  /* opacity: .8; */
+  visibility: hidden;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .4s ease-in-out;
+}
+
+.sort-menu__list:hover .sort-menu__submenu {
+  visibility: visible;
+  transform: scaleY(1);
+}
+
+.sort-menu__submenu-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.sort-menu__submenu-item {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6E105E;
+  width: 100%;
+}
+
+.sort-menu__submenu-list:hover {
+  background: #D26600;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 850px) {
+  .sort-menu__container {
+    padding: 54px 30px 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .sort-menu__container {
+    padding: 44px 20px 40px;
+  }
+
+  .sort-menu__header {
+    display: inline-block;
+  }
+
+  .sort-menu__header-item {
+    font-size: 18px;
+  }
+
+  .sort-menu__list {
+    margin: 5px 0 0;
+  }
+
+  .sort-menu__item {
+    font-size: 16px;
+  }
+
+  /* .sort-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    background: #CBB8CE;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+    box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+    border-radius: 12px;
+    position: absolute;
+    width: 290px;
+    z-index: 5;
+    padding: 0 5px 5px;
+    visibility: visible;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(1);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+  }
+
+  .sort-menu__header-item::after {
+    content: url('../../images/arrow.svg');
+    transform: rotate(90deg);
+    margin-left: 10px;
+  }
+
+  .sort-menu__header-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sort-menu__header-list:hover .sort-menu {
+    visibility: visible;
+    transform: scaleY(1);
+  } */
+}

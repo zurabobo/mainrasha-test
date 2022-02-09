@@ -1,0 +1,9 @@
+.main {
+  background-image: url('../../images/under-construction.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  height: 200px;
+  margin: 30px auto 0;
+}

@@ -1,0 +1,53 @@
+{
+  "homepage": "https://zurabobo.github.io/mainrasha-test",
+  "name": "mainrasha-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "babel-plugin-formatjs": "^10.3.12",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.2",
+    "postcss-loader": "^6.2.0",
+    "react": "^17.0.2",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^17.0.2",
+    "react-horizontal-scrolling-menu": "^2.6.1",
+    "react-intl": "^5.23.0",
+    "react-modal": "^3.14.3",
+    "react-player": "^2.9.0",
+    "react-responsive": "^9.0.0-beta.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-scroll-into-view": "^1.10.1",
+    "smoothscroll-polyfill": "^0.4.4",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-formatjs": "^2.19.1",
+    "gh-pages": "^3.2.3",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2"
+  }
+}

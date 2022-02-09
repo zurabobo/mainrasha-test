@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/mainrasha-test/static/css/main.54ad8a60.chunk.css",
+    "main.js": "/mainrasha-test/static/js/main.75e5d0cf.chunk.js",
+    "main.js.map": "/mainrasha-test/static/js/main.75e5d0cf.chunk.js.map",
+    "runtime-main.js": "/mainrasha-test/static/js/runtime-main.0ccc01cc.js",
+    "runtime-main.js.map": "/mainrasha-test/static/js/runtime-main.0ccc01cc.js.map",
+    "static/js/2.c626fc14.chunk.js": "/mainrasha-test/static/js/2.c626fc14.chunk.js",
+    "static/js/2.c626fc14.chunk.js.map": "/mainrasha-test/static/js/2.c626fc14.chunk.js.map",
+    "index.html": "/mainrasha-test/index.html",
+    "static/css/main.54ad8a60.chunk.css.map": "/mainrasha-test/static/css/main.54ad8a60.chunk.css.map",
+    "static/js/2.c626fc14.chunk.js.LICENSE.txt": "/mainrasha-test/static/js/2.c626fc14.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/mainrasha-test/static/media/Montserrat-Regular.8b56391e.woff2",
+    "static/media/BloggersCardList.css": "/mainrasha-test/static/media/arrow-right.f820a485.svg",
+    "static/media/SortMenu.css": "/mainrasha-test/static/media/arrow.e86ce3de.svg",
+    "static/media/MobileMenu.css": "/mainrasha-test/static/media/burger.111cfc3a.svg",
+    "static/media/SideBar.css": "/mainrasha-test/static/media/cross.67dd0589.svg",
+    "static/media/instagram-color.97b5a2c9.svg": "/mainrasha-test/static/media/instagram-color.97b5a2c9.svg",
+    "static/media/instagram-footer.efa52114.svg": "/mainrasha-test/static/media/instagram-footer.efa52114.svg",
+    "static/media/instagram.e1192e1e.svg": "/mainrasha-test/static/media/instagram.e1192e1e.svg",
+    "static/media/logo.0446e8b7.png": "/mainrasha-test/static/media/logo.0446e8b7.png",
+    "static/media/VideosCard.css": "/mainrasha-test/static/media/play-btn.e3b7fe3c.svg",
+    "static/media/UnderConstruction.css": "/mainrasha-test/static/media/under-construction.571948e1.svg",
+    "static/media/video-1.55ea880f.jpg": "/mainrasha-test/static/media/video-1.55ea880f.jpg",
+    "static/media/video-2.7dc529f5.jpg": "/mainrasha-test/static/media/video-2.7dc529f5.jpg",
+    "static/media/video-3.22bf009b.jpg": "/mainrasha-test/static/media/video-3.22bf009b.jpg",
+    "static/media/video-4.a82acca7.jpg": "/mainrasha-test/static/media/video-4.a82acca7.jpg",
+    "static/media/video-5.cd82b094.jpg": "/mainrasha-test/static/media/video-5.cd82b094.jpg",
+    "static/media/video-6.803be23d.jpg": "/mainrasha-test/static/media/video-6.803be23d.jpg",
+    "static/media/vk-color.e829c36f.svg": "/mainrasha-test/static/media/vk-color.e829c36f.svg",
+    "static/media/vk-footer.e913eb37.svg": "/mainrasha-test/static/media/vk-footer.e913eb37.svg",
+    "static/media/vk.051da2a5.svg": "/mainrasha-test/static/media/vk.051da2a5.svg",
+    "static/media/youtube-color.1557f5e3.svg": "/mainrasha-test/static/media/youtube-color.1557f5e3.svg",
+    "static/media/youtube.b7de90d0.svg": "/mainrasha-test/static/media/youtube.b7de90d0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ccc01cc.js",
+    "static/js/2.c626fc14.chunk.js",
+    "static/css/main.54ad8a60.chunk.css",
+    "static/js/main.75e5d0cf.chunk.js"
+  ]
+}

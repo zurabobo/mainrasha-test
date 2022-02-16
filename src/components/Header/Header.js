@@ -8,7 +8,7 @@ const Header = ({currentLocale, isClicked, languageChange}) => {
 
   return (
     <header className="header">
-      <Link to="/">
+      <Link to="/main">
         <img className="header__logo" src={HeaderLogo} alt="лого" />
       </Link>
       <MobileMenu languageChange={languageChange} isClicked={isClicked} currentLocale={currentLocale}/>

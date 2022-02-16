@@ -54,12 +54,12 @@
 import './App.css';
 import Header from '../Header/Header';
 import RouteBar from '../RouteBar/RouteBar';
-import { Switch, Route, useRouteMatch } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Bloggers from '../Bloggers/Bloggers';
 import Preloader from '../Preloader/Preloader';
 import Footer from '../Footer/Footer';
 import Blogger from '../Blogger/Blogger';
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 import { LOCALES } from '../../translation/locales';
 import { messages } from '../../translation/messages';
@@ -122,14 +122,16 @@ const App = () => {
           languageChange={languageChange}
           isClicked={isClicked}
         />
+        <RouteBar
+          data={selectedCard}
+        />
         <Switch>
 
-          <Route exact path="/">
-            <Main/>
+          <Route path="/main">
+            <Main />
           </Route>
 
           <Route path="/bloggers">
-            <RouteBar></RouteBar>
             <Bloggers onCardClick={handleCardClick} />
             <Preloader></Preloader>
           </Route>

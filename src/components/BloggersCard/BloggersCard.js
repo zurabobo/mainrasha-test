@@ -88,7 +88,7 @@ const BloggersCard = ({ data, onCardClick }) => {
       {bloggersLocation ? (
         <article id={data.id} className="bloggers-card">
 
-          <Link className="bloggers-card__link" style={{ backgroundImage: `url(${data.link})` }} href="#blogger" to="/blogger" onClick={handleClick}>
+          <Link className="bloggers-card__link" style={{ backgroundImage: `url(${data.link})` }} href="#blogger" to={`/blogger/${data.title}`} onClick={handleClick}>
             <div className="bloggers-card__info-container">
               <CardTitle title={<FormattedMessage id={data.key}/>}/>
               <div className="bloggers-card__followers">

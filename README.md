@@ -1,4 +1,4 @@
-## [Проектная работа на GitHub Pages](https://zurabobo.github.io/mainrasha-test).
+## [Проектная работа на GitHub Pages](https://zurabobo.github.io/main).
 
 # Getting Started with Create React App
 
